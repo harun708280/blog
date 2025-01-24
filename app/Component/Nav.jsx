@@ -21,7 +21,7 @@ const Nav = async () => {
       </div>
       <div className="flex items-center gap-5 text-lg font-semibold">
         <Link href="/">Home</Link>
-        <Link href="/dashboard">Profile</Link>
+        <Link href="/dashboard">Profile </Link>
 
         {
             isUserAuthenticated ?<LogoutLink><button className="bg-rose-500 py-2 px-4 rounded-lg text-white font-semibold">
