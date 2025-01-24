@@ -30,7 +30,8 @@ const Nav = async () => {
           <div className="flex gap-4">
             <LoginLink>
           <button className="bg-rose-500 py-2 px-4 rounded-lg text-white font-semibold">
-            Login
+            
+            Logout
           </button>
         </LoginLink>
         <RegisterLink>
