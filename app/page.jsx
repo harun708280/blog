@@ -8,7 +8,7 @@ export default async function Home() {
   
   return (
    <div className="">
-    <h1 className="text-3xl font-bold mb-5 ">Blog Posts</h1>
+    <h1 className="text-3xl font-bold  my-12 ">Blog Posts</h1>
     <div className="grid grid-cols-4 gap-6">
       {
         posts.map(post=>
