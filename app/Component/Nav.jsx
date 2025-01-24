@@ -15,7 +15,7 @@ const Nav = async () => {
     <div className="py-3 flex justify-between text-gray-800  p-4">
       <div className="">
         <h1 className="text-xl font-bold">
-          Blog{" "}
+          Blog
           <span className="text-2xl font-extrabold text-rose-700">Viewer</span>
         </h1>
       </div>
