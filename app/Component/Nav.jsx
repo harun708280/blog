@@ -12,7 +12,7 @@ const Nav = async () => {
   const isUserAuthenticated = await isAuthenticated();
   
   return (
-    <div className="py-3 flex justify-between text-gray-800 bg-gray-200 p-4">
+    <div className="py-3 flex justify-between text-gray-800  p-4">
       <div className="">
         <h1 className="text-xl font-bold">
           Blog{" "}
