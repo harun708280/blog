@@ -31,7 +31,7 @@ const Nav = async () => {
             <LoginLink>
           <button className="bg-rose-500 py-2 px-4 rounded-lg text-white font-semibold">
             
-            Logout
+            Login
           </button>
         </LoginLink>
         <RegisterLink>
