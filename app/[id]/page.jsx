@@ -14,12 +14,14 @@ export default async function Page({ params }) {
     console.log(getUser)
   
     return (
-      <div className="p-5 w-8/12 mx-auto my-12 bg-white shadow-xl rounded-lg ">
+      <div className="flex items-center justify-center mt-20">
+        <div className="p-5 w-8/12 mx-auto my-12 bg-white shadow-xl rounded-lg  ">
         <div className="mb=7">
         <Link href='/' className="bg-rose-500 py-1 px-4 rounded-lg text-white my-7 ">Back</Link>
         </div>
         <h1 className="text-2xl font-bold mb-3">Blog Title: {post.title}</h1>
         <p className="text-gray-700">{post.body}</p>
+      </div>
       </div>
     );
   }
